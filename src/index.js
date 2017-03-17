@@ -126,7 +126,7 @@ export class Workbook extends Component {
   }
 
   render () {
-    download();
+    this.download();
     return ()
   }
 }
