@@ -112,6 +112,7 @@ export class Workbook extends Component {
   }
 
   download () {
+    debugger;
     const wb = {
       SheetNames: React.Children.map(this.props.children, sheet => sheet.props.name),
       Sheets: {}
@@ -126,6 +127,7 @@ export class Workbook extends Component {
   }
 
   render () {
+    debugger;
     this.download();
     return ()
   }
